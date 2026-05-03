@@ -1,0 +1,15 @@
+{
+    "token": "8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0",
+    "p12": "certs/cert.p12",
+    "password": "AppleP12.com",
+    "mobileprovision": "certs/profile.mobileprovision",
+    "domain": "https://karastorevip.netlify.app",
+    "github_token": "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",
+    "github_repo": "Karbin18/ios-store",
+    "max_size_mb": 500,
+    "rate_limit_per_hour": 10,
+    "cleanup_hours": 48,
+    "admin_ids": [],
+    "log_level": "INFO"
+}
+

@@ -1,0 +1,19 @@
+@"
+[build]
+  publish = "public"
+
+[[headers]]
+  for = "/plist/*.plist"
+  [headers.values]
+    Content-Type = "text/xml"
+
+[[headers]]
+  for = "/apps/*.ipa"
+  [headers.values]
+    Content-Type = "application/octet-stream"
+
+[[headers]]
+  for = "/install/*.html"
+  [headers.values]
+    Content-Type = "text/html; charset=utf-8"
+"@ | Set-Content netlify.toml -Encoding UTF8

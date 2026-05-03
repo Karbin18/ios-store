@@ -1,0 +1,10 @@
+@"
+/plist/*.plist
+  Content-Type: text/xml
+
+/apps/*.ipa
+  Content-Type: application/octet-stream
+
+/install/*.html
+  Content-Type: text/html; charset=utf-8
+"@ | Set-Content public\_headers -Encoding UTF8

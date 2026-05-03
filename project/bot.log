@@ -1,0 +1,332 @@
+2026-05-03 14:48:33,450 [INFO] zsign-bot: Config loaded. Domain: https://karastorevip.netlify.app
+2026-05-03 14:48:35,009 [INFO] zsign-bot: Bot started. Polling…
+2026-05-03 14:48:35,476 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getMe "HTTP/1.1 200 OK"
+2026-05-03 14:48:35,559 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-03 14:48:35,561 [INFO] telegram.ext.Application: Application started
+2026-05-03 14:48:45,806 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:48:55,225 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:48:55,540 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 14:49:05,331 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:49:08,602 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:49:08,892 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 14:49:10,195 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getFile "HTTP/1.1 200 OK"
+2026-05-03 14:49:10,459 [INFO] httpx: HTTP Request: GET https://api.telegram.org/file/bot8260287953%3AAAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/documents/file_0.ipa "HTTP/1.1 200 OK"
+2026-05-03 14:49:13,568 [INFO] zsign-bot: [7ba80ef8daf5] Downloaded Esign_5.0.2.ipa (16.0 MB)
+2026-05-03 14:49:13,675 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 14:49:13,677 [INFO] zsign-bot: Running: zsign -k certs/cert.p12 -p AppleP12.com -m certs/profile.mobileprovision -o 'public\signed\Esign_5.0.2_7ba80ef8daf5.ipa' -z 9 'tmp\7ba80ef8daf5\Esign_5.0.2.ipa'
+2026-05-03 14:49:18,687 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:49:19,440 [INFO] zsign-bot: zsign succeeded: Esign_5.0.2_7ba80ef8daf5.ipa
+2026-05-03 14:49:19,733 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 14:49:19,741 [INFO] zsign-bot: [7ba80ef8daf5] Plist written: public\plist\Esign_5.0.2_7ba80ef8daf5.plist
+2026-05-03 14:49:19,840 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/deleteMessage "HTTP/1.1 200 OK"
+2026-05-03 14:49:19,958 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 14:49:20,066 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 14:49:28,771 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:49:38,861 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:49:48,949 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:49:59,029 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:50:09,110 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:50:19,192 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:50:29,275 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:50:39,360 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:50:49,443 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:50:59,529 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:51:09,609 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:51:19,691 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:51:29,774 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:51:39,864 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:51:49,951 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:52:00,034 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:52:10,117 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:52:20,198 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:52:30,280 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:52:40,360 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:52:50,442 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:53:00,528 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:53:10,611 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:53:20,693 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:53:30,778 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:53:40,871 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:53:50,957 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:54:01,048 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:54:11,135 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:54:21,218 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:54:31,307 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:54:41,390 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:54:51,483 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:55:01,574 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:55:11,659 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:55:21,953 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:55:32,345 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:55:42,455 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:55:52,540 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:56:02,679 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:56:12,768 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:56:22,966 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:56:33,154 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:56:43,359 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:56:50,105 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:56:50,108 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-03 14:56:50,109 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-03 14:57:50,472 [INFO] zsign-bot: Config loaded. Domain: https://karastorevip.netlify.app
+2026-05-03 14:57:51,260 [INFO] zsign-bot: Bot started. Polling…
+2026-05-03 14:57:51,687 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getMe "HTTP/1.1 200 OK"
+2026-05-03 14:57:51,786 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-03 14:57:51,791 [INFO] telegram.ext.Application: Application started
+2026-05-03 14:58:02,087 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:58:07,254 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:58:07,579 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 14:58:07,664 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getFile "HTTP/1.1 200 OK"
+2026-05-03 14:58:07,910 [INFO] httpx: HTTP Request: GET https://api.telegram.org/file/bot8260287953%3AAAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/documents/file_0.ipa "HTTP/1.1 200 OK"
+2026-05-03 14:58:11,083 [INFO] zsign-bot: [bca770db4f76] Downloaded Esign_5.0.2.ipa (16.0 MB)
+2026-05-03 14:58:11,192 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 14:58:11,194 [INFO] zsign-bot: Running: zsign -k certs/cert.p12 -p AppleP12.com -m certs/profile.mobileprovision -o 'public\signed\Esign_5.0.2_bca770db4f76.ipa' -z 9 'tmp\bca770db4f76\Esign_5.0.2.ipa'
+2026-05-03 14:58:16,028 [INFO] zsign-bot: zsign succeeded: Esign_5.0.2_bca770db4f76.ipa
+2026-05-03 14:58:16,148 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 14:58:16,150 [INFO] zsign-bot: [bca770db4f76] Plist written: public\plist\Esign_5.0.2_bca770db4f76.plist
+2026-05-03 14:58:16,241 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/deleteMessage "HTTP/1.1 200 OK"
+2026-05-03 14:58:16,351 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 14:58:16,457 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 14:58:17,344 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:58:27,424 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:58:37,506 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:58:47,592 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:58:57,698 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:59:07,779 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:59:17,906 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:59:27,988 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:59:38,088 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:59:48,178 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 14:59:58,267 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:00:08,353 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:00:18,434 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:00:28,564 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:00:38,651 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:00:43,626 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:00:43,627 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-03 15:00:43,627 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-03 15:21:49,144 [INFO] zsign-bot: Config loaded. Domain: https://karastorevip.netlify.app
+2026-05-03 15:21:50,028 [INFO] zsign-bot: Bot started. Polling…
+2026-05-03 15:21:50,372 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getMe "HTTP/1.1 200 OK"
+2026-05-03 15:21:50,454 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-03 15:21:50,457 [INFO] telegram.ext.Application: Application started
+2026-05-03 15:22:00,703 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:22:10,786 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:22:20,869 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:22:30,955 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:22:31,286 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:22:31,578 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 15:22:41,402 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:22:51,485 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:23:01,566 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:23:11,648 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:23:21,742 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:23:23,721 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:23:24,051 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 15:23:24,190 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getFile "HTTP/1.1 200 OK"
+2026-05-03 15:23:24,307 [INFO] httpx: HTTP Request: GET https://api.telegram.org/file/bot8260287953%3AAAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/documents/file_0.ipa "HTTP/1.1 200 OK"
+2026-05-03 15:23:28,532 [INFO] zsign-bot: [a785832846ee] Downloaded Esign_5.0.2.ipa (16.0 MB)
+2026-05-03 15:23:28,645 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 15:23:28,648 [INFO] zsign-bot: Running: zsign -k certs/cert.p12 -p AppleP12.com -m certs/profile.mobileprovision -o 'public\signed\Esign_5.0.2_a785832846ee.ipa' -z 9 'tmp\a785832846ee\Esign_5.0.2.ipa'
+2026-05-03 15:23:30,928 [INFO] zsign-bot: zsign succeeded: Esign_5.0.2_a785832846ee.ipa
+2026-05-03 15:23:31,111 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 15:23:31,114 [INFO] zsign-bot: [a785832846ee] Plist written: public\plist\Esign_5.0.2_a785832846ee.plist
+2026-05-03 15:23:31,268 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/deleteMessage "HTTP/1.1 200 OK"
+2026-05-03 15:23:31,431 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 15:23:31,600 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 15:23:33,813 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:23:43,896 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:23:53,976 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:24:04,062 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:24:14,151 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:24:24,232 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:24:28,932 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:24:28,935 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-03 15:24:28,939 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-03 15:47:03,528 [INFO] zsign-bot: Config loaded. Domain: https://karastorevip.netlify.app, GitHub Repo: Karbin18
+2026-05-03 15:47:04,273 [INFO] zsign-bot: Bot started. Polling…
+2026-05-03 15:47:04,565 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getMe "HTTP/1.1 200 OK"
+2026-05-03 15:47:04,648 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-03 15:47:04,654 [INFO] telegram.ext.Application: Application started
+2026-05-03 15:47:10,614 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:47:10,928 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 15:47:17,482 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:47:17,742 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 15:47:17,821 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getFile "HTTP/1.1 200 OK"
+2026-05-03 15:47:17,992 [INFO] httpx: HTTP Request: GET https://api.telegram.org/file/bot8260287953%3AAAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/documents/file_0.ipa "HTTP/1.1 200 OK"
+2026-05-03 15:47:21,174 [INFO] zsign-bot: [cedc5e91badd] Downloaded Esign_5.0.2.ipa (16.0 MB)
+2026-05-03 15:47:21,280 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 15:47:21,281 [INFO] zsign-bot: Running: zsign -k certs/cert.p12 -p AppleP12.com -m certs/profile.mobileprovision -o 'public\signed\Esign_5.0.2_cedc5e91badd.ipa' -z 9 'tmp\cedc5e91badd\Esign_5.0.2.ipa'
+2026-05-03 15:47:27,581 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:47:28,822 [INFO] zsign-bot: zsign succeeded: Esign_5.0.2_cedc5e91badd.ipa
+2026-05-03 15:47:29,077 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 15:47:30,175 [ERROR] zsign-bot: [cedc5e91badd] Unhandled error: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest", "status": "404"}
+Traceback (most recent call last):
+  File "C:\Users\Karbin\Desktop\project\bot.py", line 358, in handle_document
+    ipa_url = await asyncio.get_event_loop().run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, builder.upload_to_github, job_id, ipa_out, meta["name"]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Users\Karbin\Desktop\project\bot.py", line 105, in upload_to_github
+    repo = g.get_repo(self.cfg["github_repo"])
+  File "C:\Users\Karbin\AppData\Roaming\Python\Python314\site-packages\github\MainClass.py", line 490, in get_repo
+    return github.Repository.Repository(self.__requester.withLazy(lazy), url=url)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Karbin\AppData\Roaming\Python\Python314\site-packages\github\GithubObject.py", line 570, in __init__
+    self.complete()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Karbin\AppData\Roaming\Python\Python314\site-packages\github\GithubObject.py", line 615, in complete
+    self._completeIfNeeded()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Karbin\AppData\Roaming\Python\Python314\site-packages\github\GithubObject.py", line 624, in _completeIfNeeded
+    self._complete()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Karbin\AppData\Roaming\Python\Python314\site-packages\github\GithubObject.py", line 629, in _complete
+    headers, data = self._requester.requestJsonAndCheck(
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "GET", self._url.value, parameters=parameters, headers=self.__completeHeaders
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Karbin\AppData\Roaming\Python\Python314\site-packages\github\Requester.py", line 628, in requestJsonAndCheck
+    *self.__check(
+     ~~~~~~~~~~~~^
+        *self.requestJson(
+        ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        )
+        ^
+    ),
+    ^
+  File "C:\Users\Karbin\AppData\Roaming\Python\Python314\site-packages\github\Requester.py", line 867, in __check
+    raise self.createException(status, responseHeaders, data)
+github.GithubException.UnknownObjectException: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest", "status": "404"}
+2026-05-03 15:47:30,302 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 15:47:37,663 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:47:47,741 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:47:57,821 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:48:07,905 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:48:17,984 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:48:28,062 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:48:39,319 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:48:49,410 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:48:59,493 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:49:09,573 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:49:19,658 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:49:29,737 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:49:39,817 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:49:49,909 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:50:00,048 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:50:10,127 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:50:14,554 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:50:14,555 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-03 15:50:14,555 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-03 15:58:59,238 [INFO] zsign-bot: Config loaded. Domain: https://karastorevip.netlify.app, GitHub Repo: Karbin18/ios-store
+2026-05-03 15:59:00,005 [INFO] zsign-bot: Bot started. Polling…
+2026-05-03 15:59:00,402 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getMe "HTTP/1.1 200 OK"
+2026-05-03 15:59:00,485 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-03 15:59:00,487 [INFO] telegram.ext.Application: Application started
+2026-05-03 15:59:05,678 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:59:05,943 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 15:59:15,762 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:59:15,845 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:59:16,122 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 15:59:16,204 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getFile "HTTP/1.1 200 OK"
+2026-05-03 15:59:16,315 [INFO] httpx: HTTP Request: GET https://api.telegram.org/file/bot8260287953%3AAAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/documents/file_0.ipa "HTTP/1.1 200 OK"
+2026-05-03 15:59:19,761 [INFO] zsign-bot: [1f6b3e4abc74] Downloaded Esign_5.0.2.ipa (16.0 MB)
+2026-05-03 15:59:19,864 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 15:59:19,866 [INFO] zsign-bot: Running: zsign -k certs/cert.p12 -p AppleP12.com -m certs/profile.mobileprovision -o 'public\signed\Esign_5.0.2_1f6b3e4abc74.ipa' -z 9 'tmp\1f6b3e4abc74\Esign_5.0.2.ipa'
+2026-05-03 15:59:25,346 [INFO] zsign-bot: zsign succeeded: Esign_5.0.2_1f6b3e4abc74.ipa
+2026-05-03 15:59:25,720 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 15:59:25,931 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:59:26,803 [INFO] zsign-bot: Authenticated as: Karbin18
+2026-05-03 15:59:27,327 [INFO] zsign-bot: Found repository: Karbin18/ios-store
+2026-05-03 15:59:28,617 [INFO] zsign-bot: Created tag: signed-1f6b3e4abc74
+2026-05-03 15:59:28,617 [ERROR] zsign-bot: GitHub upload failed: 'Repository' object has no attribute 'create_release'
+2026-05-03 15:59:28,716 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 15:59:36,018 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:59:46,097 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 15:59:56,185 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:00:06,272 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:00:16,373 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:00:26,453 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:00:36,537 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:00:46,643 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:00:56,726 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:01:06,827 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:01:16,908 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:01:26,992 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:01:37,076 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:01:47,170 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:01:57,255 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:02:07,341 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:02:17,420 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:02:27,500 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:02:37,611 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:02:47,727 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:02:56,358 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:02:56,359 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-03 16:02:56,360 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-03 16:03:03,941 [INFO] zsign-bot: Config loaded. Domain: https://karastorevip.netlify.app, GitHub Repo: Karbin18/ios-store
+2026-05-03 16:03:04,713 [INFO] zsign-bot: Bot started. Polling…
+2026-05-03 16:03:05,077 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getMe "HTTP/1.1 200 OK"
+2026-05-03 16:03:05,229 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-03 16:03:05,233 [INFO] telegram.ext.Application: Application started
+2026-05-03 16:03:15,640 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:03:25,725 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:03:35,812 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:03:45,898 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:03:51,382 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:03:51,796 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 16:04:01,519 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:04:11,613 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:04:17,575 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:04:17,856 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/sendMessage "HTTP/1.1 200 OK"
+2026-05-03 16:04:17,938 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getFile "HTTP/1.1 200 OK"
+2026-05-03 16:04:18,022 [INFO] httpx: HTTP Request: GET https://api.telegram.org/file/bot8260287953%3AAAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/documents/file_0.ipa "HTTP/1.1 200 OK"
+2026-05-03 16:04:27,660 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:04:37,745 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:04:40,444 [INFO] zsign-bot: [0419ef86f264] Downloaded Esign_5.0.2.ipa (16.0 MB)
+2026-05-03 16:04:40,545 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 16:04:40,549 [INFO] zsign-bot: Running: zsign -k certs/cert.p12 -p AppleP12.com -m certs/profile.mobileprovision -o 'public\signed\Esign_5.0.2_0419ef86f264.ipa' -z 9 'tmp\0419ef86f264\Esign_5.0.2.ipa'
+2026-05-03 16:04:45,735 [INFO] zsign-bot: zsign succeeded: Esign_5.0.2_0419ef86f264.ipa
+2026-05-03 16:04:45,993 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 16:04:47,200 [INFO] zsign-bot: Authenticated as: Karbin18
+2026-05-03 16:04:47,742 [INFO] zsign-bot: Found repository: Karbin18/ios-store
+2026-05-03 16:04:47,830 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:04:49,011 [INFO] zsign-bot: Created tag: signed-0419ef86f264
+2026-05-03 16:04:50,506 [ERROR] zsign-bot: GitHub upload failed: [Errno 2] No such file or directory: 'public\\signed\\Esign_5.0.2_0419ef86f264.ipa'
+2026-05-03 16:04:50,611 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/editMessageText "HTTP/1.1 200 OK"
+2026-05-03 16:04:57,913 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:05:08,012 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:05:18,096 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:05:28,181 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:05:38,263 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:05:48,348 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:05:58,429 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:06:08,512 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:06:18,593 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:06:28,674 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:06:38,755 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:06:48,836 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:06:58,918 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:07:09,005 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:07:19,096 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:07:29,272 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:07:39,356 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:07:49,453 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:07:59,540 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:08:09,623 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:08:19,715 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:08:29,807 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:08:39,891 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:08:49,974 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:08:53,565 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8260287953:AAH6zjiYjUAobkAty7oSczA4IqOJ2a1FXm0/getUpdates "HTTP/1.1 200 OK"
+2026-05-03 16:08:53,567 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-03 16:08:53,568 [INFO] telegram.ext.Application: Application.stop() complete
